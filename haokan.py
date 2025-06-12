@@ -20,7 +20,7 @@ resolution_dir_map = {
 
 cookie_string = ""
 #垃圾百度不给Cookie不给返回视频信息
-cookie_string = "BDUSS=###"
+cookie_string = "BDUSS=1145141919810""
 cookies = None
 if cookie_string:
     cookies = dict(cookie.split("=", 1) for cookie in cookie_string.split("; ") if "=" in cookie)
